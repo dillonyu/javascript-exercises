@@ -4,6 +4,7 @@ const ftoc = function(f) {
     return ans;
   }
   return +ans.toFixed(1);
+  // return Math.round((f - 32) * (5/9) * 10) / 10; // alt
 };
 
 const ctof = function(c) {
@@ -12,6 +13,7 @@ const ctof = function(c) {
     return ans;
   }
   return +ans.toFixed(1);
+  // return Math.round(((c * 9/5) + 32) * 10) / 10; // alt
 };
 
 // Do not edit below this line
